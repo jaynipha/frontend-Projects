@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+}
+.section-1{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin-top: 100px;
+
+  /* text-align: center;  */
+  
+}
+
+.section-2{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .box-1{
+    background-color: rgb(251, 141, 141);
+    padding-left:80px ;
+    padding-right: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 4px;
+    /* justify-content: center; */
+  }
+
+  .box-2{
+    background-color: rgb(217, 205, 222);
+    padding-left:80px ;
+    padding-right: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 4px;
+    border-radius: 5px;
+    
+  }
+
+  .box-3{
+    background-color: rgb(214, 236, 14);
+    padding-left:80px ;
+    padding-right: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 4px;
+    border-radius: 5px;
+  }
+
+  .box-4{
+    background-color: rgb(127, 125, 130);
+    padding-left:80px ;
+    padding-right: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 4px;
+    border-radius: 5px;
+  }
+
+  .box-5{
+    background-color: rgb(230, 24, 24);
+    padding-left:80px ;
+    padding-right: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 4px;
+    border-radius: 5px;
+  }
+
+  .box-6{
+    background-color: rgb(246, 177, 244);
+    padding-left:80px ;
+    padding-right: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 4px;
+    border-radius: 5px;
+  }
+
+  .box-7{
+    background-color: rgb(1, 195, 248);
+    padding-left:80px ;
+    padding-right: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 4px;
+    border-radius: 5px;
+  }
+
+  .box-8{
+    background-color: rgb(248, 111, 20);
+    padding-left:80px ;
+    padding-right: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 4px;
+    border-radius: 5px;
+  }
