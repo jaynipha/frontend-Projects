@@ -71,14 +71,50 @@ margin: 50px;
     transform: scaleX(0);
     transition: transform 0.3s;
 }
+
+.nav-links li a:hover::after{
+    transform: scaleX(1);
+}
 @media screen and (max-width: 800px){
 
-};
- .curved-header::before{
+*{
+    overflow: hidden;
+}
+.curved-header{
+    height: 120vh;
+}
+
+.curved-header .nav-links{
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 6cm;
+}
+
+.curved-header .nav-links li a{
+
+}
+
+.curved-header::before{
     background-repeat: no-repeat;
-    background-position: inherit;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    transform: scale(4.0);
+    z-index: -1;
  }   
 
+ .curved-header .logo{
+  overflow: hidden;
+ }
+
+
+
+
+};
+ 
 
 .nav-links li a:hover::after{
     transform: scaleX(1);
